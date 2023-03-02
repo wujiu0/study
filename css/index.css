@@ -14,7 +14,7 @@ a {
 
 .clearfix:before,
 .clearfix:after {
-  content: "";
+  content: '';
   display: table;
 }
 .clearfix:after {
@@ -91,7 +91,7 @@ h1 {
   width: 50px;
   /* background-color: gold; */
   height: 40px;
-  background-image: url("../images/btn.png");
+  background-image: url('../images/btn.png');
   border: 0;
 }
 .user {
@@ -297,4 +297,14 @@ h1 {
 }
 .footer .right a {
   color: #333;
+}
+
+.box .content li .hot {
+  position: absolute;
+  right: -4px;
+  top: 4px;
+}
+
+.box .content li {
+  position: relative;
 }
