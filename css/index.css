@@ -238,7 +238,7 @@ h1 {
   height: 270px;
   background-color: #fff;
 }
-.box .content li:nth-child(5n) {
+.box .content li:nth-child(5n + 1) {
   margin-right: 0;
 }
 .box .content li h3 {

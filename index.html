@@ -103,78 +103,62 @@
       </div>
       <div class="content">
         <ul>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-              <img src="./images/hot.png" alt="" class="hot" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-              <img src="./images/hot.png" alt="" class="hot" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/course03.png" alt="" />
-              <h3>Think PHP 5.0 博客系统实战项目演练</h3>
-              <p><span>高级</span> · 1125人正在学习</p>
-            </a>
-          </li>
+          <script>
+            let data = [
+              {
+                src: 'images/course01.png',
+                title: 'Think PHP 5.0 博客系统实战项目演练',
+                num: 1125,
+              },
+              {
+                src: 'images/course02.png',
+                title: 'Android 网络动态图片加载实战',
+                num: 357,
+              },
+              {
+                src: 'images/course03.png',
+                title: 'Angular2 大前端商城实战项目演练',
+                num: 22250,
+              },
+              {
+                src: 'images/course04.png',
+                title: 'Android APP 实战项目演练',
+                num: 389,
+              },
+              {
+                src: 'images/course05.png',
+                title: 'UGUI 源码深度分析案例',
+                num: 124,
+              },
+              {
+                src: 'images/course06.png',
+                title: 'Kami2首页界面切换效果实战演练',
+                num: 432,
+              },
+              {
+                src: 'images/course07.png',
+                title: 'UNITY 从入门到精通实战案例',
+                num: 888,
+              },
+              {
+                src: 'images/course08.png',
+                title: 'Cocos 深度学习你不会错过的实战',
+                num: 590,
+              },
+            ];
+            for (let i = 0; i < data.length; i++) {
+              document.write(`
+                <li>
+                  <a href="#">
+                    <img src=${data[i].src} alt="" />
+                    <h3>${data[i].title}</h3>
+                    <p><span>高级</span> · ${data[i].num}人正在学习</p>
+                    <img src="./images/hot.png" alt="" class="hot" />
+                  </a>
+                </li>
+                `);
+            }
+          </script>
         </ul>
       </div>
     </div>
