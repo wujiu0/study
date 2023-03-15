@@ -82,7 +82,7 @@ h1 {
   height: 40px;
   border: 0;
 }
-.search input:on .search input::placeholder {
+.search input::placeholder {
   font-size: 14px;
   color: #bfbfbf;
 }
