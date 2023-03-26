@@ -231,12 +231,19 @@ h1 {
 }
 
 .box .content li {
+  position: relative;
+  top: 0;
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
   width: 228px;
   height: 270px;
   background-color: #fff;
+  transition: all 0.3s;
+}
+.box .content li:hover {
+  top: -8px;
+  box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
 }
 .box .content li:nth-child(5n + 1) {
   margin-right: 0;
